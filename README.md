@@ -12,12 +12,12 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/franciscooliver/ci-cd-node>
+$ git clone <https://github.com/franciscooliver/git-actions-node.git>
 
 ### 🎲 Rodando o API em modo desenvolvimento
 
 ## Acesse a pasta do projeto no terminal/cmd
-$ cd ci-cd-node
+$ cd git-actions-node
 
 ## Execute o comando docker para executar o projeto do backend
 $ docker-compose up -d --build
