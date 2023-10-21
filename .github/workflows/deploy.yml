@@ -15,6 +15,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           #password: ${{ secrets.SERVER_PASSWORD }}
           key: ${{ secrets.SERVER_SSH_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
           script_stop: true
           command_timeout: 200m
           script: /
