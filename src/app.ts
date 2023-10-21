@@ -2,8 +2,8 @@ import 'reflect-metadata'
 import cors from 'cors'
 import express from 'express'
 import createConnection from './database'
-import { router } from "./routes/routes"
 import dotenv from 'dotenv'
+import { router } from "./routes/routes"
 
 createConnection()
 dotenv.config()
